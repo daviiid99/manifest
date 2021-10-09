@@ -2,12 +2,12 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".."
+           fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/" />
-  <default revision="refs/tags/android-12.0.0_r2"
+  <default revision="refs/tags/android-11.0.0_r48"
            remote="aosp"
            sync-j="4" />
-
+  
   <superproject name="platform/superproject" remote="aosp"/>
   <contactinfo bugurl="go/repo-bug" />
 
